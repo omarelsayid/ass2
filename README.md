@@ -39,3 +39,14 @@ Easy to scale or switch to another backend like SQLite or REST API in the future
 
 🧠 Dependency Injection
 Managed using injectable and get_it.
+
+
+<img width="632" height="640" alt="image" src="https://github.com/user-attachments/assets/7218d08a-e5e7-4ec0-9072-362dd47f4893" />
+
+
+
+https://github.com/user-attachments/assets/1e297419-f4d6-44ce-9d95-3b33010e3b02
+
+
+
+
