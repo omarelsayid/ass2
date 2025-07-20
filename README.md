@@ -1,16 +1,41 @@
-# ass2
+📝 Flutter Notes App
+A simple and clean note-taking app built using Flutter, implementing Bloc for state management, the Repository Pattern, and Hive for local data persistence. The app supports viewing, adding, editing, and deleting notes, with support for dark mode and responsive UI.
 
-A new Flutter project.
+✨ Features
+✅ Core Features
+🏠 Home Screen with a dynamic list of notes (ListView.builder)
 
-## Getting Started
+➕ Add Note Screen with fields for title and content
 
-This project is a starting point for a Flutter application.
+✏️ Edit Note support for updating existing notes
 
-A few resources to get you started if this is your first Flutter project:
+🗑️ Delete Note functionality with one tap
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔁 Responsive UI using MediaQuery and adaptive layout
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🌙 Theme Switcher for Dark/Light mode
+
+💾 Local Data Storage
+📦 sqlite
+
+📌 Notes are saved locally and restored after app restarts
+
+🆔 Each note has a unique id generated using timestamp
+
+📅 Notes are sorted by date (newest first)
+
+🧱 Architecture
+The app is structured following Clean Architecture principles:
+
+🔄 State Management
+✅ flutter_bloc is used for managing UI and business logic separately.
+
+Cubits handle fetching, adding, editing, and deleting notes.
+
+🗃️ Repository Pattern
+NotesRepository abstracts the data layer from the presentation.
+
+Easy to scale or switch to another backend like SQLite or REST API in the future.
+
+🧠 Dependency Injection
+Managed using injectable and get_it.
